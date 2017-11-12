@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Nadim Al-Sharif">
+    <meta name="description" content="Bootstrap lab-1">
+    <meta name="keywords" content="bootstrap, jumbotron, panel, navbar ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\bootstrap-theme.min.css">
+    <script src="js\jquery-3.2.1.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#navbar-collapse-container"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="navbar-brand ">
+                <span class="glyphicon glyphicon-fire"></span>   Luminosity
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-container">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a>
+                </li>
+                <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="treatments.html">Treatments<span class="sr-only">(current)</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="height:100vh;">
+                        <li><a href="treatments.html">Treatments</a></li>
+                        <li><a href="classic-massage.html">Classic-massage</a></li>
+                        <li><a href="taktil-massage.html">Taktil-massage</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li class="active">Treatments</li>
+    </ol>
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-xs-12 col-md-6">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <h3>Classic-massage</h3>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <img class="img-responsive img-rounded" src="images/panel1.jpg">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices libero ac auctor rutrum.
+                    Nam malesuada fermentum pulvinar. Nam ipsum elit, rutrum faucibus ex sed, volutpat malesuada ligula.
+                    Integer hendrerit ipsum aliquam aliquet mattis.
+                </div>
+                <div class="panel-footer">
+                    <a href="classic-massage.html" class="btn btn-success" role="button">Read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <h3>Taktil-massage</h3>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <img class="img-responsive img-rounded" src="images/panel2.jpg">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices libero ac auctor rutrum.
+                    Nam malesuada fermentum pulvinar. Nam ipsum elit, rutrum faucibus ex sed, volutpat malesuada ligula.
+                    Integer hendrerit ipsum aliquam aliquet mattis.
+                </div>
+                <div class="panel-footer">
+                    <a href="taktil-massage.html" class="btn btn-warning" role="button">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
